@@ -6,11 +6,11 @@ The following sections outline the steps that you need to take to accomplish thi
 In this section, we'll use Python and SQLAlchemy to do a basic climate analysis and data exploration of our climate database. Specifically, we’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. 
 To do so, complete the following steps:
 
-- 1- Use jupyter notebook and the provided file (hawaii.sqlite) to complete our climate analysis and data exploration.
-- 2- Use the SQLAlchemy create_engine() function to connect to our SQLite database.
-- 3- Use the SQLAlchemy automap_base() function to reflect our tables into classes, and then save references to the classes named station and measurement.
-- 4- Link Python to the database by creating a SQLAlchemy session. 
-- 5- Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
+1- Use jupyter notebook and the provided file (hawaii.sqlite) to complete our climate analysis and data exploration.
+2- Use the SQLAlchemy create_engine() function to connect to our SQLite database.
+3- Use the SQLAlchemy automap_base() function to reflect our tables into classes, and then save references to the classes named station and measurement.
+4- Link Python to the database by creating a SQLAlchemy session. 
+5- Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
 ### `Precipitation Analysis`
 
