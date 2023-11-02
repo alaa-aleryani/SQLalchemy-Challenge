@@ -6,11 +6,11 @@ The following sections outline the steps that you need to take to accomplish thi
 In this section, we'll use Python and SQLAlchemy to do a basic climate analysis and data exploration of our climate database. Specifically, we’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. 
 To do so, complete the following steps:
 
-1- Use jupyter notebook and the provided file (hawaii.sqlite) to complete our climate analysis and data exploration.
-2- Use the SQLAlchemy create_engine() function to connect to our SQLite database.
-3- Use the SQLAlchemy automap_base() function to reflect our tables into classes, and then save references to the classes named station and measurement.
-4- Link Python to the database by creating a SQLAlchemy session. 
-5- Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
+    1- Use jupyter notebook and the provided file (hawaii.sqlite) to complete our climate analysis and data exploration.
+    2- Use the SQLAlchemy create_engine() function to connect to our SQLite database.
+    3- Use the SQLAlchemy automap_base() function to reflect our tables into classes, and then save references to the classes named station and measurement.
+    4- Link Python to the database by creating a SQLAlchemy session. 
+    5- Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
 ### `Precipitation Analysis`
 
@@ -38,8 +38,8 @@ To do so, complete the following steps:
 ## Part 2: Design Your Climate App
 Now that we’ve completed our initial analysis, we’ll design a Flask API based on the queries that we just developed. To do so, use Flask to create your routes as follows:
 - 1- `/`
-- - Start at the homepage.
-- - List all the available routes.
+    - Start at the homepage.
+    - List all the available routes.
 
 - 2- `/api/v1.0/precipitation`
 - - Convert the query results from our precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using `date` as the key and `prcp` as the value.
